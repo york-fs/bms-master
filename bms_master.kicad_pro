@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -74,7 +80,7 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -116,9 +122,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.1,
+        "min_connection": 0.2,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -129,8 +135,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -179,7 +185,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,7 +216,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -478,7 +493,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(50, 17, 255)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -487,7 +502,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 27, 24)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -496,7 +511,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(37, 255, 59)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -505,7 +520,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(100, 100, 100)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -514,7 +529,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(144, 244, 255)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -523,7 +538,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 148, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6
@@ -532,7 +547,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "SWD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(222, 255, 36)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "wire_width": 6

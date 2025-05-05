@@ -22898,45 +22898,16 @@
 		(layer "F.SilkS")
 		(uuid "eb503a18-647e-4c78-8e75-483393607fca")
 	)
-	(gr_line
-		(start 70 89)
-		(end 70 30)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "14c2e09c-c9b2-4562-9d03-d643d3ba05d9")
-	)
-	(gr_line
-		(start 148 89)
-		(end 70 89)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "14d49e4a-0dcf-4bad-86b3-9132e88190a9")
-	)
-	(gr_line
-		(start 148 30)
+	(gr_rect
+		(start 70 30)
 		(end 148 89)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "7a104fa4-ee0d-4c67-a576-03addf141e53")
-	)
-	(gr_line
-		(start 70 30)
-		(end 148 30)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "993b9596-0a1c-43bc-bc3f-9088ce553246")
+		(uuid "b2dbef7a-8c57-4c8d-a9a8-a5c66cc769e6")
 	)
 	(gr_text "DIO"
 		(at 126.12 35 90)

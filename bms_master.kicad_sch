@@ -9255,6 +9255,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 87.63) (xy 59.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e03435-2bb8-41f8-8deb-0d3f40fdc426")
+	)
+	(wire
+		(pts
 			(xy 209.55 74.93) (xy 210.82 74.93)
 		)
 		(stroke
@@ -9422,6 +9432,16 @@
 			(justify left bottom)
 		)
 		(uuid "2719d8c9-a33d-4c18-b416-9b9775da9980")
+	)
+	(label "REF"
+		(at 54.61 88.9 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4285bed0-a0a4-4180-ae8c-36e0fb1631a0")
 	)
 	(label "NRST"
 		(at 248.92 90.17 0)
@@ -21442,6 +21462,72 @@
 			(project "bms_master"
 				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0e18f78-b770-4a8d-8e06-f8dd939780f5")
+		(property "Reference" "TP6"
+			(at 59.69 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8959adb1-7c50-427e-9395-1ca762be2f0f")
+		)
+		(instances
+			(project "bms_master"
+				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
+					(reference "TP6")
 					(unit 1)
 				)
 			)

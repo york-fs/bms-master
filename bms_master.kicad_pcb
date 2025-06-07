@@ -798,7 +798,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f77559d0-2d07-4f6b-89a8-3041ce6c5624")
@@ -848,7 +848,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -874,7 +874,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -888,7 +888,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/bf639bd5-fc5d-49c1-ae64-9fb850c3aaaa")
+		(path "/7c6c5831-a8dc-44e6-bcda-651f0a46f77d")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)
@@ -1408,7 +1408,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "86eace40-1dd0-4192-98ba-65e12ac26299")
@@ -1458,7 +1458,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1498,7 +1498,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/a4a51e60-ab91-4650-8401-a847450f90f9")
+		(path "/22fe2ceb-e488-4cdf-8901-4315aa8d4961")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)
@@ -3447,7 +3447,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "743f9264-5f04-4820-a3f7-771bf50e58f5")
@@ -3497,7 +3497,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3523,7 +3523,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/528fee38-f881-4030-83ab-27aa9f7589ea")
+		(path "/74d4528f-4975-4c20-97cd-2ee274c77968")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)
@@ -6868,7 +6868,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9474ef4d-8dc0-47cb-87a1-2d9cde567e39")
@@ -6918,7 +6918,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6944,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6958,7 +6958,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/109c4633-e2b7-4e7d-9623-2c3ca9c03c8e")
+		(path "/b66e8650-4dfe-4c64-8d65-5553525c6da7")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)
@@ -7966,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e5346b95-f1cc-4536-941f-ca9a06df5f89")
@@ -8016,7 +8016,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8042,7 +8042,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8056,7 +8056,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/8bc0a4b5-b716-45f3-91b4-fbe5c39ca7ba")
+		(path "/c2ec7f1e-3801-450f-a258-1d8de700b949")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)
@@ -19721,7 +19721,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "012e2da2-016a-42eb-b288-5ec9a9387f2c")
@@ -19771,7 +19771,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C25803"
+		(property "Dist #" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19797,7 +19797,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1003T5E"
+		(property "Mfr #" "0603WAF1002T5E"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19811,7 +19811,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/7bc1279c-1a48-4b1c-a93f-3aa195f3b38e")
+		(path "/0b628e79-ed5e-461a-b674-b98c626cb4e6")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
 		(attr smd)

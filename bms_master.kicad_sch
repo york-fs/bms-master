@@ -12984,7 +12984,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 198.12 151.13 180)
+		(at 198.12 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13000,7 +13001,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 198.12 142.24 0)
+			(at 198.12 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13009,7 +13010,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13018,7 +13019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13028,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13036,7 +13037,7 @@
 			)
 		)
 		(property "Dist #" "C157926"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +13046,7 @@
 			)
 		)
 		(property "Mfr" "JST"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13054,7 +13055,7 @@
 			)
 		)
 		(property "Mfr #" "S4B-PH-K-S(LF)(SN)"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13063,7 +13064,7 @@
 			)
 		)
 		(property "Dist" "LCSC"
-			(at 198.12 151.13 0)
+			(at 198.12 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20329,7 +20330,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 214.63 151.13 180)
+		(at 214.63 148.59 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20345,7 +20347,7 @@
 			)
 		)
 		(property "Value" "I2C"
-			(at 214.63 142.24 0)
+			(at 214.63 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20354,7 +20356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20363,7 +20365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20372,7 +20374,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20381,7 +20383,7 @@
 			)
 		)
 		(property "Dist #" "C157926"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20390,7 +20392,7 @@
 			)
 		)
 		(property "Mfr" "JST"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20399,7 +20401,7 @@
 			)
 		)
 		(property "Mfr #" "S4B-PH-K-S(LF)(SN)"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20408,7 +20410,7 @@
 			)
 		)
 		(property "Dist" "LCSC"
-			(at 214.63 151.13 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

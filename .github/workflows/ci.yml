@@ -13,13 +13,13 @@ jobs:
 
       - name: Install packages
         run: >-
-         DEBIAN_FRONTEND=noninteractive
-         apt-get install -y
-         git
-         jq
-         kicad
-         kicad-packages3d
-         kicad-symbols
+          DEBIAN_FRONTEND=noninteractive
+          apt-get install -y
+          git
+          jq
+          kicad
+          kicad-packages3d
+          kicad-symbols
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,3 +51,53 @@ jobs:
           jq '.violations + .unconnected_items + .schematic_parity' drc.json > violations.json
           cat violations.json
           [[ $(jq 'del(.[] | select(.severity == "warning")) | length' violations.json) -eq 0 ]]
+
+      - name: Export BOM
+        run: >-
+          kicad-cli sch export bom
+          --output bom.csv
+          --fields 'Reference,Value,Footprint,${QUANTITY},Mfr,Mfr #,Dist,Dist #,${DNP}'
+          --labels 'Refs,Value,Footprint,Qty,Mfr,Mfr #,Dist,Dist #,DNP'
+          --group-by 'Reference,Value,Mfr,Mfr #'
+          "${PROJECT_NAME}.kicad_sch"
+
+      - name: Export schematic PDF
+        run: >-
+          kicad-cli sch export pdf
+          --output schematic.pdf
+          "${PROJECT_NAME}.kicad_sch"
+
+      - name: Export positions
+        run: >-
+          kicad-cli pcb export pos
+          --output positions.csv
+          --format csv
+          "${PROJECT_NAME}.kicad_pcb"
+
+      - name: Export gerbers
+        run: >-
+          kicad-cli pcb export gerbers
+          --output gerbers
+          --cdnp
+          --no-x2
+          --no-netlist
+          --subtract-soldermask
+          "${PROJECT_NAME}.kicad_pcb"
+
+      - name: Export preview render
+        run: >-
+          kicad-cli pcb render
+          --output preview.jpg
+          --side top
+          "${PROJECT_NAME}.kicad_pcb"
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}
+          path: |
+            bom.csv
+            schematic.pdf
+            positions.csv
+            gerbers/
+            preview.jpg

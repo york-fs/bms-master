@@ -84,6 +84,19 @@ jobs:
           --subtract-soldermask
           "${PROJECT_NAME}.kicad_pcb"
 
+      - name: Export drill file
+        run: >-
+          kicad-cli pcb export drill
+          --output gerbers
+          --format excellon
+          --drill-origin absolute
+          --excellon-zeros-format decimal
+          --excellon-oval-format alternate
+          --excellon-units mm
+          --generate-map
+          --map-format gerberx2
+          "${PROJECT_NAME}.kicad_pcb"
+
       - name: Export preview render
         run: >-
           kicad-cli pcb render

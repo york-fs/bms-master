@@ -1,5 +1,9 @@
 name: CI
 on: [push, pull_request]
+permissions:
+  contents: read
+  id-token: write
+  pages: write
 jobs:
   ci:
     name: CI
@@ -120,3 +124,16 @@ jobs:
         with:
           name: gerbers
           path: gerbers/*
+
+      - name: Extract PCB stats
+        run: |
+          PAD_COUNT=$(grep -c '(pad' "${PROJECT_NAME}.kicad_pcb")
+          VIA_COUNT=$(grep -c '(via' "${PROJECT_NAME}.kicad_pcb")
+          mkdir site
+          printf "{\"pad_count\": %s, \"via_count\": %s}\n" "$PAD_COUNT" "$VIA_COUNT" > site/info.json
+          cp preview.jpg site/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site'
+      - uses: actions/deploy-pages@v4

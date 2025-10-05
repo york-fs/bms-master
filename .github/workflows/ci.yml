@@ -1,0 +1,22 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  ci:
+    name: CI
+    runs-on: ubuntu-latest
+    container: ubuntu:noble
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: apt-get update && apt-get install -y software-properties-common
+
+      - name: Add KiCad repository
+        run: apt-add-repository --yes ppa:kicad/kicad-9.0-releases && apt-get update
+
+      - name: Install packages
+        run: >-
+         DEBIAN_FRONTEND=noninteractive
+         apt-get install -y
+         kicad
+         kicad-packages3d
+         kicad-symbols

@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     container: ubuntu:noble
     steps:
-      - uses: actions/checkout@v4
-
       - run: apt-get update && apt-get install -y software-properties-common
 
       - name: Add KiCad repository
@@ -17,6 +15,39 @@ jobs:
         run: >-
          DEBIAN_FRONTEND=noninteractive
          apt-get install -y
+         git
+         jq
          kicad
          kicad-packages3d
          kicad-symbols
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Install fonts
+        run: cp kicad-library/fonts/* /usr/share/fonts/ && fc-cache -fv
+
+      - name: Get root name
+        run: echo "PROJECT_NAME=$(basename -s .kicad_pro *.kicad_pro)" >> "$GITHUB_ENV"
+
+      - name: Copy symbol table
+        run: |
+          kicad-cli sch erc --output /dev/null "${PROJECT_NAME}.kicad_sch"
+          cp /usr/share/kicad/template/sym-lib-table ~/.config/kicad/9.0/
+
+      - name: Run schematic ERC check
+        shell: bash
+        run: |
+          set +e
+          kicad-cli sch erc --output /dev/stdout "${PROJECT_NAME}.kicad_sch" | tee /dev/stderr | grep -qP 'Errors\s+[1-9]\d*'
+          exit $(( ! $? ))
+
+      - name: Run PCB DRC check
+        shell: bash
+        run: |
+          kicad-cli pcb drc --output drc.json --format json --schematic-parity "${PROJECT_NAME}.kicad_pcb"
+          jq '.violations + .unconnected_items + .schematic_parity' drc.json > violations.json
+          cat violations.json
+          [[ $(jq 'del(.[] | select(.severity == "warning")) | length' violations.json) -eq 0 ]]

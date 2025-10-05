@@ -1,5 +1,5 @@
 [submodule "kicad-library"]
 	path = kicad-library
 	url = https://github.com/york-fs/kicad-library.git
-        update = rebase
+	update = rebase
 	branch = master

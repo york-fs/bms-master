@@ -4,6 +4,7 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.lck
 *.tmp
 _autosave-*
 *~

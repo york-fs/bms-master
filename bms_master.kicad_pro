@@ -833,6 +833,14 @@
     [
       "ff788b45-a486-492a-a3f3-4e15ca08a026",
       "Root"
+    ],
+    [
+      "2f523f65-cf81-412e-9a3a-95bf91c61e95",
+      "Positive Sensor"
+    ],
+    [
+      "6369dd45-ebef-424f-add8-5cbda69ab87c",
+      "Negative Sensor"
     ]
   ],
   "text_variables": {

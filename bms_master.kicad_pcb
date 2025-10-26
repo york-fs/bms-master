@@ -24232,8 +24232,8 @@
 		(uuid "66d7780b-f264-474b-9dbb-ef0510a7d465")
 	)
 	(gr_rect
-		(start 76.25 69.5)
-		(end 80.25 57.5)
+		(start 76.25 57.5)
+		(end 80.25 69.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -24243,8 +24243,8 @@
 		(uuid "67572783-e452-4786-8c51-4775dd9b10d9")
 	)
 	(gr_rect
-		(start 76.25 45.56)
-		(end 80.25 39.44)
+		(start 76.25 39.44)
+		(end 80.25 45.56)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -24335,8 +24335,8 @@
 		(uuid "a9c667be-3e56-4003-a914-fde6100810f1")
 	)
 	(gr_rect
-		(start 76.25 84.5)
-		(end 80.25 72.5)
+		(start 76.25 72.5)
+		(end 80.25 84.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -24503,8 +24503,8 @@
 		(uuid "f00ffa39-89b5-4d97-9e2c-115e05645961")
 	)
 	(gr_rect
-		(start 76.25 54.56)
-		(end 81.992679 48.44)
+		(start 76.25 48.44)
+		(end 81.992679 54.56)
 		(stroke
 			(width 0.1)
 			(type solid)

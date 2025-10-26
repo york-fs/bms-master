@@ -14928,7 +14928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "yfs:IDC-Connector-2x3"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -14955,7 +14955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C6332200"
+		(property "Dist #" "C42372545"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -14964,7 +14964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Hanbo Electronic"
+		(property "Mfr" "hanxia"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -14973,7 +14973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "HB-PH3-25417PB2GOP"
+		(property "Mfr #" "HX JN1.27-2x3P ZZ H4.9"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -19589,7 +19589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
 			(at 266.7 97.79 0)
 			(effects
 				(font
@@ -19616,7 +19616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C720477"
+		(property "Dist #" "C139797"
 			(at 266.7 102.87 0)
 			(effects
 				(font
@@ -19625,7 +19625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "XUNPU"
+		(property "Mfr" "ALPSALPINE"
 			(at 266.7 102.87 0)
 			(effects
 				(font
@@ -19634,7 +19634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "TS-1088-AR02016"
+		(property "Mfr #" "SKRPACE010"
 			(at 266.7 102.87 0)
 			(effects
 				(font

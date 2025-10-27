@@ -6353,6 +6353,12 @@
 		(uuid "2a5cdf1a-2fc3-4042-a650-534afa73e8f1")
 	)
 	(junction
+		(at 59.69 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc877de-156e-49f6-82bb-2dc6310a41aa")
+	)
+	(junction
 		(at 31.75 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7087,6 +7093,16 @@
 			(type default)
 		)
 		(uuid "2013db23-3b55-4130-b322-b7538652a513")
+	)
+	(wire
+		(pts
+			(xy 59.69 25.4) (xy 59.69 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21dad860-f926-4d1d-9efe-1ed78173ced1")
 	)
 	(wire
 		(pts
@@ -7840,7 +7856,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 26.67) (xy 55.88 26.67)
+			(xy 62.23 26.67) (xy 59.69 26.67)
 		)
 		(stroke
 			(width 0)
@@ -8897,6 +8913,16 @@
 			(type default)
 		)
 		(uuid "ad3bb2ed-397f-4b8f-b7a4-80a12945d389")
+	)
+	(wire
+		(pts
+			(xy 59.69 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc64b8e-9fd7-4fdf-b662-4be92328455e")
 	)
 	(wire
 		(pts
@@ -13124,6 +13150,72 @@
 			(project "bms_master"
 				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 59.69 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27080cc1-3e50-4bee-ab64-e095c4e71bfa")
+		(property "Reference" "TP7"
+			(at 59.69 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 23.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 59.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba33376a-9916-4fc1-b40a-7021633b78d3")
+		)
+		(instances
+			(project "bms_master"
+				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
+					(reference "TP7")
 					(unit 1)
 				)
 			)

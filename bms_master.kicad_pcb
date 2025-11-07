@@ -6056,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "4df14586-53e6-4960-ba89-7ea7567133c1")
@@ -6104,7 +6104,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6130,7 +6130,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19684,7 +19684,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "71b5603c-4cfb-46f5-95f8-1206dee3b3f1")
@@ -19732,7 +19732,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19758,7 +19758,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22920,7 +22920,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f17f1147-87d7-458d-8491-7c3e076878f9")
@@ -22968,7 +22968,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22994,7 +22994,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

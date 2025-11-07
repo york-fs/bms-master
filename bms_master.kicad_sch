@@ -16478,7 +16478,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 257.81 153.67 90)
 			(effects
 				(font
@@ -16522,7 +16522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 257.81 148.59 90)
 			(effects
 				(font
@@ -16540,7 +16540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 257.81 148.59 90)
 			(effects
 				(font
@@ -18264,7 +18264,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 226.06 146.05 90)
 			(effects
 				(font
@@ -18308,7 +18308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 226.06 148.59 90)
 			(effects
 				(font
@@ -18326,7 +18326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 226.06 148.59 90)
 			(effects
 				(font
@@ -22039,7 +22039,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "1k"
 			(at 242.57 139.7 90)
 			(effects
 				(font
@@ -22083,7 +22083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist #" "C22775"
+		(property "Dist #" "C21190"
 			(at 242.57 142.24 90)
 			(effects
 				(font
@@ -22101,7 +22101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr #" "0603WAF1000T5E"
+		(property "Mfr #" "0603WAF1001T5E"
 			(at 242.57 142.24 90)
 			(effects
 				(font

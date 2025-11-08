@@ -3538,7 +3538,7 @@
 				)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "43k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "4014a1c7-5592-4032-862a-2aa6f84543ce")
@@ -18331,11 +18331,63 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc078d1d-da72-43f4-8072-52ae60377cae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C3739733"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86d0d183-3cd6-4be4-8830-349401d3416c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "VISHAY"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd0c831e-6159-4170-8941-1bad3e412c48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "BZX384C3V6"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb34f91b-fc82-47dc-9b07-b1c954c856c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/124cef04-5925-4c0e-a438-1e001cd5ae98")
 		(sheetname "/")
 		(sheetfile "bms_master.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -1.61 0.85)
 			(end 1.05 0.85)

@@ -12685,7 +12685,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "124cef04-5925-4c0e-a438-1e001cd5ae98")
 		(property "Reference" "D6"
 			(at 255.27 40.64 90)
@@ -12725,6 +12725,42 @@
 		)
 		(property "Description" "Zener diode, small symbol"
 			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 256.54 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist #" "C3739733"
+			(at 256.54 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr" "VISHAY"
+			(at 256.54 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr #" "BZX384C3V6"
+			(at 256.54 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "36k"
+		(property "Value" "43k"
 			(at 261.62 35.56 0)
 			(effects
 				(font

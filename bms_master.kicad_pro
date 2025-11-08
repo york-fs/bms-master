@@ -649,7 +649,7 @@
       },
       {
         "netclass": "SWD",
-        "pattern": "/SWDIO|/SWCLK|/SWO|/NRST"
+        "pattern": "/SWDIO|/SWCLK|/SWO|NRST"
       },
       {
         "netclass": "CAN",

@@ -9313,6 +9313,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 130.81) (xy 214.63 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "970906e8-055e-4dd7-98da-6edc9726572b")
+	)
+	(wire
+		(pts
 			(xy 86.36 35.56) (xy 86.36 38.1)
 		)
 		(stroke
@@ -11157,6 +11167,28 @@
 			)
 		)
 	)
+	(global_label "SDN_OUT"
+		(shape passive)
+		(at 214.63 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "57a46e99-e014-43e6-80dd-5a0b017137f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 140.1743 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDN_MCU"
 		(shape output)
 		(at 256.54 58.42 0)
@@ -12790,6 +12822,72 @@
 			(project "bms_master"
 				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
 					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d2650b5-f5bb-429e-b172-17183ae840cc")
+		(property "Reference" "TP9"
+			(at 214.63 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 217.17 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a023f6-8ed3-4599-8776-a2b382ca8155")
+		)
+		(instances
+			(project "bms_master"
+				(path "/ff788b45-a486-492a-a3f3-4e15ca08a026"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

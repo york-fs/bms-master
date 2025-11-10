@@ -6780,6 +6780,17 @@
 		)
 		(uuid "408da2b5-2bc2-4f3f-be61-3d5370806c64")
 	)
+	(text "Falstad Simulation"
+		(exclude_from_sim no)
+		(at 227.33 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgpABZsKBTAWjDACgAzEbBFcMPjTj8+2emGhIYkFGwBOtYWAyFFVFChpRk8NgHM1IDVqHqh2yGwAOhsISo1iqu1XpUqYeF-20n4e77OKhZsAO62wab+7mG2AVECeFCcRgjOAbhaLtx8ElKwsuFizgLckFmllkXlImVZNFqWBpngwS1gxHwxCsUgfr3YXTpwbABK3NiqgxPpForgQ+6Ssb2sopN9qlXcvLWrlbEoadFGmieWCsYnV2hJHt4GN-inWlcxAM4n2VfZHiAcAEMADbvBhjL4BbJrObmbDQNwWZYADzKIEIrwwWkI5AqIHeoQAlgAXADGAAsADrvAD2VgYADsqQwALYAVyBAKJDHeVIAsgBhACqVL01IJ9L0VLJBL0lPeBOZdIAJgD6SSwXY+GkqEw-NqQEx0UYQEqGID2USmECGErwHNpOxwvqWKp9TEDPqaEl9UaYuEEigkg0kolkv6vQsg35Q9tHM5A4F-GHE3YKKVU5YuAh067IVNxJIoAVYvrpp67vIKAEXVWdRH7iMndWjc76+DndCOwn3PNKoiECXq53q34LoZplE8D3PI3DFPDKPwVEJ0ottpzH2lgOgA")
+		)
+		(uuid "41cb9c9b-95ee-4cfe-a19e-eec323ba9fb7")
+	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 173.99 15.24 0)

@@ -10,12 +10,17 @@ critical values. Two linear hall effect current sensors are sampled to measure t
 ## Features
 
 * **I2C Communication to Distributed Segment Boards**
-* **Current Sensing**
-  * On both battery poles
-  * Uses a linear hall effect current sensor
+* **Dual-Pole Current Sensing**
+  * Uses open-loop hall effect current sensors
 * **CAN Communication**
-  * Periodically sends telemetry data
-* **Shutdown and Charge Enable Outputs**
+* **Active-High Open-Drain Shutdown Output**
+  * Driven high to ~10.9 volts to indicate healthy state
+  * High impedance in a fault state
+  * Matches the Bender ISOMETER IR155-3204 IMD
+* **eFuse and TVS Protected LVS Input**
+  * Designed for 12 volt nominal input
+  * Overvoltage lockout at ~16.7 volts
+* **Microcontroller Watchdog with 3V3 Rail Monitoring**
 * **EEPROM Config**
 
 ![Preview Render](https://york-fs.github.io/bms-master/preview.jpg)

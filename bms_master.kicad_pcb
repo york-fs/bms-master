@@ -1360,6 +1360,58 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3b8f855-77c3-4fcf-b686-4ad7477ffb46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C126576"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47be6247-c894-4efd-9185-8d3a41d62da9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29939a16-76e6-491d-9e0d-30aaa9bcf073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "GCM1885C2A101JA16D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de89e222-7c14-49f3-b99b-bdaf64b5c4d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/489bc54f-465a-40fd-8812-78a3af420cfb")
 		(sheetname "/")
@@ -4143,6 +4195,58 @@
 				)
 			)
 		)
+		(property "Dist" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fddb3ef0-e40d-480c-b3c0-93811dc06b5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "538-215760-1004"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fa539bf-1395-47d9-acae-7b5b349e2515")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d2d7aaf-1759-4a78-b7fb-e3937247cd11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "2157601004"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4496dd94-d350-46ba-9393-5ac88043b623")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e2e2908-b265-4685-ad30-33b2caafba80")
 		(sheetname "/")
@@ -5966,6 +6070,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbfd7568-fb13-41c5-82b7-d7b2bd46818c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "538-215760-1022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2beb6a1c-a6ae-4ab9-9b02-6594e6a3ea78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9feda4d0-5632-4912-bded-27a8bcc75aaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "2157601022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f181b2a-f14f-4c1b-a254-78f30dc32c2a")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9007,6 +9163,58 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e059322e-fb0d-4e29-b2f0-dbcfaded34e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C85973"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f4f2cd7-f898-44da-be7e-c5f2f697ce1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d89242-d7eb-4288-aa36-8ebed59d10b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "GRM1885C1H103JA01D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d53fc86-10df-41ee-8c5b-5857626a0578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2ef76617-8172-45b3-96fd-b3f781a10150")
 		(sheetname "/")
@@ -9793,6 +10001,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06794de1-3269-4b55-8355-ef01e5ca349d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C126576"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7e3ff7f-d7c9-4108-b132-574649cd4677")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01bd2500-ec4d-4307-a533-0d3e2ccfacd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "GCM1885C2A101JA16D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbcf038e-d06a-4d6e-8140-508164e53c24")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16363,6 +16623,58 @@
 				)
 			)
 		)
+		(property "Dist" "Mouser"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a99ed930-bc0b-4f25-a614-f2dc2b224d0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "538-215760-1032"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8d44153-3452-4a99-baf4-503b74922410")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07d1ad0b-b562-4a26-848d-816d0a9b7a6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "2157601032"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6752ba0f-8d8a-4a67-b5d1-bfd88b09a3a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/cce2f623-223f-4b5d-a2ac-5ca2635dfe7a")
 		(sheetname "/")
@@ -17386,7 +17698,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "595-TPS7B8850QKVURQ1"
+		(property "Mfr #" "TPS7B8850QKVURQ1"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18280,6 +18592,58 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c5a842a-ad30-4ff3-a521-867c539e9351")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C148223"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "739efa6d-ee83-4395-a18b-be17bb1fb58a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Littelfuse"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2b6d6ac-ccb6-48e8-abcc-50227c3e167b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "SMAJ24CA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d54afd70-1f96-497a-8263-cba59de3f5b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/6b0c2603-77e0-4152-b030-351385269be8")
 		(sheetname "/")
@@ -18551,6 +18915,58 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "459fd0e3-c703-478d-bf1b-2df53040de30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caeac1a2-fbc5-4ff8-ae92-348bbe5c5107")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Uni-Royal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3ffc0e2-1992-4ea4-9954-baab408bce58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "0603WAF0000T5E"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0c91e53-61ca-482d-9d8a-aad2c1c8ba84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/86cb2e52-0d6e-4735-941a-1e465f8ad185")
 		(sheetname "/")
@@ -18763,7 +19179,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C10884"
+		(property "Dist #" "C547267"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18776,7 +19192,7 @@
 				)
 			)
 		)
-		(property "Mfr" "onsemi"
+		(property "Mfr" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18789,7 +19205,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "FDV304P"
+		(property "Mfr #" "PMV74EPER"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20339,6 +20755,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dbd5a7f-a026-44b8-927b-374287e447da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "LCSC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9de9249-cf2c-43cb-ae5d-a5cceddf1bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C2862873"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3909f09c-3238-4a3b-a262-dd7a7cf4000f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac45df2c-bf7b-4af1-b645-e3d8bcf46926")
 			(effects
 				(font
 					(size 1 1)
@@ -24501,6 +24956,58 @@
 				)
 			)
 		)
+		(property "Dist" "LCSC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81eda326-11c9-4157-a819-3d1bfe008f7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "C85973"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abd5381d-3cc1-4407-98d0-c5c3f4fe672d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Murata"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d7f1654-c16a-47b3-b199-e8e5b571c871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "GRM1885C1H103JA01D"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed8d0ae-0c3c-4d21-b47b-222c8a152952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2a1376c9-bf0c-4637-a6d7-6a6e4d90fbef")
 		(sheetname "/")
@@ -27089,7 +27596,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C10884"
+		(property "Dist #" "C547267"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27102,7 +27609,7 @@
 				)
 			)
 		)
-		(property "Mfr" "onsemi"
+		(property "Mfr" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27115,7 +27622,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "FDV304P"
+		(property "Mfr #" "PMV74EPER"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27737,6 +28244,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f46a5a7-fd35-46cd-b784-dc8c4f88077c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "538-215760-1004"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c0815d4-37c0-46fa-a7a4-d72dbc382d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f20a24d-2763-4712-ae09-6b6cdc0a5e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "2157601004"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f579fe64-54ab-45b0-9261-f36a5eeb3f88")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -28578,6 +29137,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11824c62-9bde-4834-b5ef-fd18e498b885")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "538-215760-1012"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a35eb57-8423-4320-9161-95f729105dc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Molex"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9215c5d3-4989-4b1e-8a79-5d3ed38b6128")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr #" "2157601012"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b209546b-e593-400b-8ef6-8a423d7efc2f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -29433,7 +30044,7 @@
 				)
 			)
 		)
-		(property "Dist #" "C80498"
+		(property "Dist #" "C3280957"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29446,7 +30057,7 @@
 				)
 			)
 		)
-		(property "Mfr" "onsemi"
+		(property "Mfr" "Nexperia"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29459,7 +30070,7 @@
 				)
 			)
 		)
-		(property "Mfr #" "FDV303N"
+		(property "Mfr #" "PMV15ENER"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29773,6 +30384,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bcdea6cf-a8ed-4df4-8c82-b65ac5a462f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13de5280-54f0-46f6-9d1c-aae33ec0feca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Dist #" "595-TPS3851G33SDRBR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c47510f4-ad82-4895-98f2-eee58ddd5792")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mfr" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2727c9d7-2b3e-469f-b795-9aa519ea4009")
 			(effects
 				(font
 					(size 1 1)

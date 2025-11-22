@@ -1,8 +1,10 @@
-# Battery Management System Master Board (BMS Master)
+# Battery Management System Master Board
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/york-fs/bms-master/ci.yml?label=DRC)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Finfo.json&query=%24.pad_count&label=Pad%20Count)
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Finfo.json&query=%24.via_count&label=Via%20Count)
+![Revision](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Finfo.json&query=%24.revision&label=Revision)
+![Pad Count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Finfo.json&query=%24.pad_count&label=Pad%20Count)
+![Via Count](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Finfo.json&query=%24.via_count&label=Via%20Count)
+![ERC Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Ferc.json)
+![DRC Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fyork-fs.github.io%2Fbms-master%2Fdrc.json)
 
 The BMS master board which connects to a daisy chain of distributed segment boards and continuously checks all
 critical values. Two linear hall effect current sensors are sampled to measure the main DC battery current.

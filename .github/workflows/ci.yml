@@ -6,4 +6,4 @@ permissions:
   pages: write
 jobs:
   ci:
-    uses: york-fs/monorepo/.github/workflows/kicad.yml@8019e61f5eeb9441d92d0e25a652f3e395756228
+    uses: york-fs/monorepo/.github/workflows/kicad.yml@2f66f6016b9a48cb2883001bd74522b7bda31716
